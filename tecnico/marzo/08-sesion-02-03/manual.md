@@ -1,56 +1,74 @@
-Para crear un encabezado, agrega entre uno y seis símbolos # antes del encabezado del texto. El número de # que utilices determinará el nivel jerárquico y el tamaño tipográfico del encabezado.
 
-A first-level heading.
-Al usar dos o más encabezados, GitHub genera automáticamente una tabla de contenido a la que puede acceder haciendo clic en dentro del encabezado del archivo. Todos los títulos de encabezado aparecen en la tabla de contenido, y puede hacer clic en un título para ir a la sección seleccionada. Estilos de texto Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
 
-Estilos de texto
-Estilos de texto Puedes indicar énfasis con texto en negrita, cursiva, tachado, o de subíndice o superíndice en los campos de comentarios y archivos .md.
+Código
+Asuntos
+Migas de panADSO-2900177/ técnico/ 2024/ marzo/ 08-sesión-02-03
+/Manual.md
+Último compromiso
+jabaron141
+jabaron141
+hace 2 días
+Historia
+64 líneas (35 loc) · 2,84 KB
+Metadatos y controles de archivos
 
-Entrecomillado de texto
-Puede entrecomillar texto con >.
+Avance
 
-Text that is not a quote
+Código
 
-Text that is a quote
+Culpa
+Crear archivos .md
+¿Qué es un archivo .md?
+Un archivo .mdes un archivo de texto plano que utiliza Markdown, un lenguaje de marcado ligero, para formatear texto. Markdown permite crear documentos con formato sin necesidad de utilizar herramientas de edición de texto más complejas como Microsoft Word o Google Docs.
 
-Entrecomillado de texto
-Puede entrecomillar texto con >.
+¿Por qué usar Markdown?
+Markdown es una forma sencilla y eficaz de formatear texto. Permite crear documentos bien estructurados y legibles sin necesidad de utilizar herramientas de edición de texto más complejas. Además, los archivos .mdson versátiles y pueden ser utilizados en una amplia variedad de aplicaciones y plataformas.
 
-Text that is not a quote
+¿Cómo crear un archivo .md?
+Para crear un archivo .md, sigue estos pasos:
 
-Text that is a quote
+Abrir un editor de texto: Puedes utilizar cualquier editor de texto, como Notepad (Windows), TextEdit (Mac) o Visual Studio Code (multiplataforma).
 
-Código de cita
-Puedes indicar un código o un comando dentro de un enunciado con comillas simples. El texto dentro de las comillas simples no será formateado. También puedes presionar el método abreviado de teclado Comando+E (Mac) o Ctrl+E (Windows o Linux) para insertar las comillas simples de bloque de código en una línea de Markdown.
+Crea un nuevo archivo: En el editor de texto, selecciona Nuevoy luego Archivo(o su equivalente en tu editor de texto).
 
-Use git status to list all new or modified files that haven't yet been committed.
+Guarde el archivo con extensión .md: Cuando guarde el archivo, asegúrese de que el nombre del archivo termine en .md. Por ejemplo, mi_archivo.md.
 
-Modelos de color compatibles
-En los problemas, las solicitudes de incorporación de cambios y los debates, puedes llamar a los colores dentro de una oración mediante comillas simples. Un modelo de color compatible dentro de las comillas simples mostrará una visualización del color.
+Sintaxis básica de Markdown
+El formato Markdown utiliza ciertos caracteres para dar formato al texto. A continuación, se presentan algunos ejemplos:
 
-The background color is #ffffff for light mode and #000000 for dark mode.
+Encabezados: Utilizado #para crear encabezados. Cuantos más #usos, más pequeño será el encabezado. Por ejemplo, # Título Principal, ## Subtítulo, ### Subtítulo más pequeño, etc.
 
-Vínculos
-Puede crear un vínculo en línea escribiendo su texto entre corchetes [ ] y escribiendo la URL entre paréntesis ( ). También puede usar el método abreviado de teclado Command+K para crear un vínculo. Cuando haya seleccionado texto, puede pegar una dirección URL del Portapapeles para crear automáticamente un vínculo a partir de la selección.
+Texto en negrita y cursiva: Utiliza **para negrita y *para cursiva. Por ejemplo, **negrita**y *cursiva*.
 
-También puedes crear un hipervínculo de Markdown resaltando el texto y usando el método abreviado de teclado Comando+V. Si quieres reemplazar el texto por el vínculo, usa el método abreviado de teclado Comando+Mayús+V.
+Listas: Puedes crear listas utilizando -o *para cada elemento. Por ejemplo, - Elemento 1, - Elemento 2, etc.
 
-This site was built using GitHub Pages.
+Enlaces: Utilice [Texto del enlace](URL)para crear un enlace. Por ejemplo, [Google](https://www.google.com).
 
-Captura de pantalla de GitHub Markdown en la que se muestra cómo el texto entre corchetes, "GitHub Pages", aparece como un hipervínculo azul.
+Imágenes: Utilice ![Texto alternativo](URL de la imagen)para insertar una imagen. Por ejemplo, ![Fondo](imagenes/fondo-pantalla-luna-arte-digital_23-2150918875.avif).
 
-Imágenes
-Puede mostrar una imagen agregando ! y ajustar el texto alternativo en [ ]. El texto alternativo es un texto corto equivalente a la información de la imagen. Luego, escribe el vínculo de la imagen entre paréntesis ().
+Ejemplo de archivo .md
+# Mi Documento
 
-Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.
+Este es un archivo de Markdown de ejemplo.
 
-Captura de pantalla de un comentario en un problema de GitHub que muestra una imagen, agregada en Markdown, de un Octocat sonriendo y levantando un tentáculo.
+## Texto en negrita y cursiva
 
-GitHub admite la inserción de imágenes en incidencias, solicitudes de incorporación de cambi
+**Esto es texto en negrita** y *esto es texto en cursiva*.
 
-Listas
-Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
+## Listas
 
-George Washington
-John Adams
-Thomas Jefferson Captura de pantalla de GitHub Markdown en la que se muestra una lista con viñetas de los nombres de los tres primeros presidentes de Estados Unidos.
+- Elemento 1
+- Elemento 2
+- Elemento 3
+
+## Enlaces e imágenes
+
+[Google](https://www.google.com)
+
+![Fondo](imagenes/fondo-pantalla-luna-arte-digital_23-2150918875.avif)
+Fondo
+
+Guardar y visualizar el archivo
+Guardar el archivo: Una vez que hayas terminado de editar tu archivo .md, guarda los cambios.
+
+Visualizar el archivo: Abra el archivo .mden una visera de Markdown. Puedes utilizar aplicaciones en línea como Dillinger, StackEdit o GitHub para visualizar el archivo con el formato correcto.
